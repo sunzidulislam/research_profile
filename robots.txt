@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://github.com/sunzidulislam/sitemap.xml
+Sitemap: https://sunzidulislam.github.io/research_profile/sitemap.xml
