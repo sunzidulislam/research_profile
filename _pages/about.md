@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: sunzidul_pic.png
   image_circular: false # crops the image to make it circular
   more_info: >
 
@@ -15,8 +15,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a [Junior Research Scientist](https://iub.ac.bd/directory/ccds?type=centers-and-institutes) at the [Center for Computational & Data Sciences (CCDS)](https://ccds.ai), Independent University, Bangladesh. Currently, I am pursuing an MSc in CSE at [BUET](https://cse.buet.ac.bd/) (Bangladesh University of Engineering & Technology). I received my Bachelor's degree in CSE from [KUET](https://www.kuet.ac.bd/cse) (Khulna University of Engineering & Technology) in 2024. I have hands-on experience in both academic research and teaching, gained through roles as a Research Assistant and Lecturer/Teaching Assistant across various institutions.
+I am an Assistant Programmer at [iAutomationBD](https://www.iautomationbd.com/), Dhaka, Bangladesh. Previously, I worked as a Junior Data Scientist at [ConneqtedAgents](https://conneqtedagents.ai/) for 10 months. I received my Bachelor's degree in Computer Science and Engineering from [KUET](https://www.kuet.ac.bd/cse) (Khulna University of Engineering & Technology) in 2025. I have hands-on experience in both academic research and software engineering, gained through roles as a Research Assistant and Teaching Assistant across various institutions.
 
-My research is supervised by [Prof. Dr. Amin Ahsan Ali](http://iub.ac.bd/academics/departments/cse/faculty-and-staff/aminali) and [Prof. Dr. AKM Mahbubur Rahman](http://iub.ac.bd/academics/departments/cse/faculty-and-staff/akmmrahman) from CCDS. Currently, my researches and projects focus on Agentic AI, Multi-modal learning (LLM based foundation models), Trustworthy ML, Federated Learning and Continual Learning/ Adaptive Learning System. I am fortunate to collaborate with and receive mentorship from [Md Mofijul Islam](https://mmiakashs.github.io/), [Aman Chadha](https://www.aman.info/), [Sajib Mistri](https://staffportal.curtin.edu.au/staff/profile/view/sajib-mistry-d41c64f3/). (All of them are collaborators of CCDS).
+Currently, I am also a Research Collaborator at the [SPEED Lab](https://www.fau.edu/research/speedlab/) (Florida Atlantic University, USA) under the supervision of [Ahmed Imtaj](https://ai.fau.edu/people/ahmed-imtaj/). My research focuses on Vision-Language Models (VLM), Retrieval-Augmented Generation (RAG), Diffusion Models, and Federated Learning. I am passionate about bridging research innovation with scalable engineering to build robust, next-generation AI systems.
 
-I am Open to Research Collaboration with any Research Group, Lab, Industries etc.
+I am open to research collaborations with any research group, lab, or industry.

@@ -3,9 +3,9 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: Md Akil
-middle_name: Raihan
-last_name: Iftee
+first_name: Md Sunzidul
+middle_name: 
+last_name: Islam
 contact_note: >
   Feel free to reach out via email or LinkedIn.
 description: >
@@ -14,9 +14,9 @@ footer_text: >
 
 keywords: #jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: prof_pic.jpg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: sunzidul_pic.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: https://mdakilraihaniftee.github.io # the base hostname & protocol for your site
+url: https://github.com/sunzidulislam # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: true # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
@@ -86,7 +86,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Akil's Blog # blog_name will be displayed in your blog page
+blog_name: Sunzid's Blog # blog_name will be displayed in your blog page
 blog_description: A blog about data science, machine learning, and research. # a brief description of your blog
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
@@ -115,7 +115,7 @@ giscus:
   lang: en
 
 # Disqus comments (DEPRECATED)
-disqus_shortname: mdakilraihaniftee # put your disqus shortname
+disqus_shortname: mdsunzidulislam # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
@@ -273,8 +273,8 @@ display_categories: ["paper-review", "code"] # these categories will be displaye
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Iftee]
-  first_name: [Md. Akil Raihan, Md. Akil Raihan]
+  last_name: [Islam]
+  first_name: [Md. Sunzidul, Md. Sunzidul]
 
   style: apa
   locale: en

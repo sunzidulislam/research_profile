@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2025-07-10 15:59:00-0400
+date: 2026-06-16 12:00:00+0600
 inline: true
 related_posts: false
 ---
 
-Reaching 200+ Citations of my research papers. Check in my [Google Scholar](https://scholar.google.com/citations?user=x1ueJ5UAAAAJ&hl=en&oi=ao).
+Reaching 6 citations of my research papers. Check in my [Google Scholar](https://scholar.google.com/citations?user=SkQY6H0AAAAJ).
