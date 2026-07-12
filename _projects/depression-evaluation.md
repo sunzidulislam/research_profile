@@ -4,7 +4,7 @@ title: "depression-evaluation"
 description: "GitHub Repository"
 img: https://opengraph.githubassets.com/1/sunzidulislam/depression-evaluation
 importance: 1
-category: Ongoing Research
+category: Completed Research
 ---
 
 <div class="row justify-content-sm-center">

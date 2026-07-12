@@ -4,7 +4,7 @@ title: "Protein-2D-Structure-Prediction-Using-Deep-Learning."
 description: "GitHub Repository"
 img: https://opengraph.githubassets.com/1/sunzidulislam/Protein-2D-Structure-Prediction-Using-Deep-Learning.
 importance: 1
-category: Ongoing Research
+category: Completed Research
 ---
 
 <div class="row justify-content-sm-center">

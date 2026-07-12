@@ -4,7 +4,7 @@ title: "rag-application"
 description: "GitHub Repository"
 img: https://opengraph.githubassets.com/1/sunzidulislam/rag-application
 importance: 1
-category: Research Proposal
+category: Completed Research
 ---
 
 <div class="row justify-content-sm-center">

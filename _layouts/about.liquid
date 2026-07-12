@@ -258,13 +258,57 @@ layout: default
 
     <div class="research-areas-wrapper">
       <div class="research-category">
+        <h4><b>3D Image Generation:</b></h4>
+        <div class="category-scroll">
+          <ol>
+            <li>
+              <img src="{{ site.baseurl }}/assets/img/3d_generation_arch.png" class="zoomable area-icon" onclick="openZoom(this)">
+              <div>
+                <a href="https://drive.google.com/file/d/12POlQUwwPhUK415lwAyMmg4-llquEkfU/view?usp=sharing">Direct3D: Direct-to-3D Generation with Diffusion Models (pdf)</a>
+                <p class="project-desc">
+                  Direct3D instead trains a native 3D generative model that maps an image directly to a 3D
+shape in a single diffusion process, avoiding both multi-view diffusion and SDS optimization
+                </p>
+              </div>
+            </li>
+            <li>
+              <img src="{{ site.baseurl }}/assets/img/renderdiffusion_arch.png" class="zoomable area-icon" onclick="openZoom(this)">
+              <div>
+                <a href="https://drive.google.com/file/d/1p4Irn7ZdpGmpYZSJnMg4GuJD8hzy5t3n/view?usp=sharing">RenderDiffusion: Image Diffusion for 3D Reconstruction, Inpainting and Generation (pdf)</a>
+                <p class="project-desc">
+                  RenderDiffusion asks whether a diffusion model can learn 3D structure while being trained only on 2D images (with known camera poses) and no explicit 3D supervision.
+                </p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="research-category">
+        <h4><b>Digital Twin:</b></h4>
+        <div class="category-scroll">
+          <ol>
+            <li>
+              <img src="{{ site.baseurl }}/assets/img/digital_twin_arch.png" class="zoomable area-icon" onclick="openZoom(this)">
+              <div>
+                <a href="https://drive.google.com/file/d/1sk2Rv2wC-QOXV0efwI_lurNxonfJYyoT/view?usp=sharing">Taming Digital Twin Generation via 3D-Aware 360° Video Diffusion (pdf)</a>
+                <p class="project-desc">
+                  Generating complete digital twins from videos requires precise camera control, global scene coverage, and strict spatial–temporal consistency, constraints that remain challenging for perspective video generators due to their limited field of view (FoV). 
+                </p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="research-category">
         <h4><b>Multimodal Learning:</b></h4>
         <div class="category-scroll">
           <ol>
             <li>
               <img src="{{ site.baseurl }}/assets/img/proj10.png" class="zoomable area-icon" onclick="openZoom(this)">
               <div>
-                <a href="{{ site.baseurl }}/assets/pdf/har_mmact_.pdf">Context-Aware Cross-Modal Alignment for HAR Using LLMs and Wearable Sensors (pdf)</a>
+                <a href="">Context-Aware Cross-Modal Alignment for HAR Using LLMs and Wearable Sensors (pdf)</a>
                 <p class="project-desc">
                   A multimodal (video, language, sensor modality) model where video features are obtained from a context prompt guided Video-LLava,
                   and applied Keyless Attention for sensor feature fusion.
@@ -275,7 +319,7 @@ layout: default
             <li>
               <img src="{{ site.baseurl }}/assets/img/bias.png" class="zoomable area-icon" onclick="openZoom(this)">
               <div>
-                <a href="{{ site.baseurl }}/assets/pdf/MU_social_biasness.pdf">Multimodal Bias Removal through Machine Unlearning in Large Language Models (pdf)</a>
+                <a href="">Multimodal Bias Removal through Machine Unlearning in Large Language Models (pdf)</a>
                 <p class="project-desc">
                   A multimodal machine-unlearning framework that selectively removes socially biased knowledge from MLLMs while preserving their
                   reasoning ability and overall utility.
@@ -283,18 +327,7 @@ layout: default
               </div>
             </li>
 
-            <li>
-              <img src="{{ site.baseurl }}/assets/img/proverb.png" class="zoomable area-icon" onclick="openZoom(this)">
-              <div>
-                <a href="{{ site.baseurl }}/assets/pdf/proverbflowdiagram.pdf"
-                  >ProverbBench: A Visual Proverbs Benchmark for Evaluating Multimodal Large Language Models (pdf)</a
-                >
-                <p class="project-desc">
-                  A multimodal proverb-understanding pipeline where text and visual encoders extract meanings, align concepts, incorporate historical
-                  context, and generate an LLM-based final interpretation.
-                </p>
-              </div>
-            </li>
+
           </ol>
         </div>
       </div>
@@ -306,7 +339,7 @@ layout: default
             <li>
               <img src="{{ site.baseurl }}/assets/img/proj11.png" class="zoomable area-icon" onclick="openZoom(this)">
               <div>
-                <a href="{{ site.baseurl }}/projects/1_project_2/">Diffusion-Based Image Editing with Vision-Language Instructions (pdf)</a>
+                <a href="">Diffusion-Based Image Editing with Vision-Language Instructions (pdf)</a>
                 <p class="project-desc">
                   An Image Editing Tool with User Instructions had: language processor (LLAVA), segmenter (SAM), and image editor (Stable Diffusion)
                 </p>
@@ -321,7 +354,7 @@ layout: default
         <div class="category-scroll">
           <ol>
             <li>
-              <img src="{{ site.baseurl }}/assets/img/abc.jpg" class="zoomable area-icon" onclick="openZoom(this)">
+              <img src="{{ site.baseurl }}/assets/img/jailbreak_ml.png" class="zoomable area-icon" onclick="openZoom(this)">
               <div>
                 <a href="#">A Backpropagation-Free Jailbreak Attacks on Multimodal Large Language Models</a>
                 <p class="project-desc">
@@ -331,26 +364,10 @@ layout: default
               </div>
             </li>
 
+ 
+
             <li>
-              <img src="{{ site.baseurl }}/assets/img/abc.jpg" class="zoomable area-icon" onclick="openZoom(this)">
-              <div>
-                <a href="#">Privacy-Preserving NSFW Image Generation via Diffusion Unlearning</a>
-                <p class="project-desc">
-                  Protecting Diffusion Models (Stable Diffusion, Flux) from NSFW Jailbreaking via Harmful Knowledge Forgetting with Machine Unlearning
-                </p>
-              </div>
-            </li>
-            <li>
-              <img src="{{ site.baseurl }}/assets/img/abc.jpg" class="zoomable area-icon" onclick="openZoom(this)">
-              <div>
-                <a href="#">The Dark Side of Prompt Tuning: Poisoning Attacks on Vision-Language Models at Test Time</a>
-                <p class="project-desc">
-                  PGD-based poisoning of unlabeled inference data can corrupt on-the-fly prompt tuning in CLIP-based vision-language models.
-                </p>
-              </div>
-            </li>
-            <li>
-              <img src="{{ site.baseurl }}/assets/img/abc.jpg" class="zoomable area-icon" onclick="openZoom(this)">
+              <img src="{{ site.baseurl }}/assets/img/fl_satellite.png" class="zoomable area-icon" onclick="openZoom(this)">
               <div>
                 <a href="#">Data Stealing Attacks in Federated Learning for Satellite Communication Systems</a>
                 <p class="project-desc">
@@ -359,109 +376,7 @@ layout: default
                 </p>
               </div>
             </li>
-            <li>
-              <img src="{{ site.baseurl }}/assets/img/abc.jpg" class="zoomable area-icon" onclick="openZoom(this)">
-              <div>
-                <a href="#">Federated Unlearning Attack</a>
-                <p class="project-desc">
-                  Designed a black-box attack where a malicious client sends unlearn requests targeting important data of other clients using
-                  membership inference attacks.
-                </p>
-              </div>
-            </li>
-            <li>
-              <img src="{{ site.baseurl }}/assets/img/abc.jpg" class="zoomable area-icon" onclick="openZoom(this)">
-              <div>
-                <a href="#">Gradient Inversion Attack in Test Time Adaptation (pdf)</a>
-                <p class="project-desc">
-                  Investigates privacy vulnerabilities during model adaptation by recovering input data from gradient signals.
-                </p>
-              </div>
-            </li>
-            <li>
-              <img src="{{ site.baseurl }}/assets/img/abc.jpg" class="zoomable area-icon" onclick="openZoom(this)">
-              <div>
-                <a href="#">Federated Adversarial Attack in Test-Time Adaptation</a>
-                <p class="project-desc">
-                  Designed a gradient inversion attack for retrieving local client data during test-time continual learning and Proposed a defence by
-                  encrypting gradients before sending to the aggregator.
-                </p>
-              </div>
-            </li>
-          </ol>
-        </div>
-      </div>
-
-      <div class="research-category">
-        <h4><b>Federated Learning:</b></h4>
-        <div class="category-scroll">
-          <ol>
-            <li>
-              <img src="{{ site.baseurl }}/assets/img/pr.png" class="zoomable area-icon" onclick="openZoom(this)">
-              <div>
-                <a href="{{ site.baseurl }}/assets/pdf/missing_mod_fed.pdf"
-                  >When a Modality is Missing: A Cross-Modal Recovery for Federated Multimodal LLM Models (pdf)</a
-                >
-                <p class="project-desc">
-                  Introduces a modality recovery approach for clients missing either image or text in federated multimodal learning.
-                </p>
-              </div>
-            </li>
-            <li>
-              <img src="{{ site.baseurl }}/assets/img/fedbalancett.png" class="zoomable area-icon" onclick="openZoom(this)">
-              <div>
-                <a href="{{ site.baseurl }}/assets/pdf/fedbalancetta.pdf">FedBalanceTTA – Federated Learning with Balanced Test Time Adaptation (pdf)</a>
-                <p class="project-desc">Combines test-time adaptation with federated learning to balance performance across domains and clients.</p>
-              </div>
-            </li>
-            <li>
-              <img src="{{ site.baseurl }}/assets/img/proj31.png" class="zoomable area-icon" onclick="openZoom(this)">
-              <div>
-                <a href="{{ site.baseurl }}/assets/pdf/proj31.pdf">Federated Personalized Scanpath Prediction for Privacy-Preserving UI Optimization (pdf)</a>
-                <p class="project-desc">Proposes personalized scanpath learning to optimize user interfaces while preserving eye-tracking privacy.</p>
-              </div>
-            </li>
-          </ol>
-        </div>
-      </div>
-
-      <div class="research-category">
-        <h4><b>Human Computer Interaction:</b></h4>
-        <div class="category-scroll">
-          <ol>
-            <li>
-              <img src="{{ site.baseurl }}/assets/img/proj32.png" class="zoomable area-icon" onclick="openZoom(this)">
-              <div>
-                <a href="{{ site.baseurl }}/assets/pdf/proj32.pdf">Voice Activated Gaze-Enhanced Multimodal Interaction for Accessibility (pdf)</a>
-                <p class="project-desc">
-                  Combines voice and gaze input to support accessible multimodal interaction for users with limited mobility.
-                </p>
-              </div>
-            </li>
-            <li>
-              <img src="{{ site.baseurl }}/assets/img/proj30.png" class="zoomable area-icon" onclick="openZoom(this)">
-              <div>
-                <a href="{{ site.baseurl }}/assets/pdf/proj30.pdf">Controllable 3D UI Exploration and its Future (pdf)</a>
-                <p class="project-desc">Explores new paradigms for interacting with 3D user interfaces, focusing on control and user experience.</p>
-              </div>
-            </li>
-          </ol>
-        </div>
-      </div>
-
-      <div class="research-category">
-        <h4><b>IoT, Embedded System, Wearable/ Wearless Sensor:</b></h4>
-        <div class="category-scroll">
-          <ol>
-            <li>
-              <img src="{{ site.baseurl }}/assets/img/proj10.png" class="zoomable area-icon" onclick="openZoom(this)">
-              <div>
-                <a href="{{ site.baseurl }}/assets/pdf/har_mmact_.pdf"
-                  >Wearable Sensor Feature Alignment (Accelerometer, Gyro, Orientation) for Human Activity Recognition (pdf)</a
-                >
-                <p class="project-desc">Aligns sensor features using projection techniques to enhance HAR in low-resource or noisy environments.</p>
-              </div>
-            </li>
+ 
           </ol>
         </div>
       </div>
@@ -471,7 +386,7 @@ layout: default
         <div class="category-scroll">
           <ol>
             <li>
-              <img src="#" class="zoomable area-icon" onclick="openZoom(this)">
+              <img src="{{ site.baseurl }}/assets/img/medical_qa_ct.png" class="zoomable area-icon" onclick="openZoom(this)">
               <div>
                 <a href="#">LLM-Driven Question Answering and Captioning for 3D CT and MRI Data (pdf)</a>
                 <p class="project-desc">
@@ -480,29 +395,7 @@ layout: default
                 </p>
               </div>
             </li>
-            <li>
-              <img src="#" class="zoomable area-icon" onclick="openZoom(this)">
-              <div>
-                <a href="https://ieeexplore.ieee.org/abstract/document/11022489"
-                  >Organ-Seg: A Vision-Language and LLM-Enhanced Framework for User-Guided Abdominal Organ Segmentation.</a
-                >
-                <p class="project-desc">
-                  Instruction-guided medical image segmentation framework that combines LLaVA and SAM to deliver accurate, context-aware, and
-                  user-driven segmentation, even under false premises.
-                </p>
-              </div>
-            </li>
-            <li>
-              <img src="#" class="zoomable area-icon" onclick="openZoom(this)">
-              <div>
-                <a href="https://mdakilraihaniftee.github.io/assets/pdf/thesis_report.pdf"
-                  >3D Cerebrovascular Segmentation Using Semi-Supervised Approach (pdf)</a
-                >
-                <p class="project-desc">
-                  Semi-Supervised Uncertainty-Aware Knowledge Distillation for brain vessel segmentation from 3D MRA data (ITK-TubeTK dataset)
-                </p>
-              </div>
-            </li>
+
           </ol>
         </div>
       </div>
@@ -689,6 +582,12 @@ layout: default
 
     <h3>Teaching Experience</h3>
     <ul>
+      <li>
+        <strong>Lecturer (Part-Time)</strong> <span style="color:green;">[June 30, 2026 – Present]</span><br>
+        Department of CSE, <a href="https://seu.edu.bd/" target="_blank">Southeast University</a>, Bangladesh
+      </li>
+      <br>
+
       <li>
         <strong>Teaching Assistant (Remote)</strong> <span style="color:green;">[June 2025 – Feb 2026]</span><br>
         Ostad, Dhaka, Bangladesh<br>

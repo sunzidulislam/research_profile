@@ -4,7 +4,7 @@ title: "Autonomous-CAR-System-project-"
 description: "GitHub Repository"
 img: https://opengraph.githubassets.com/1/sunzidulislam/Autonomous-CAR-System-project-
 importance: 1
-category: Research Proposal
+category: Completed Research
 ---
 
 <div class="row justify-content-sm-center">

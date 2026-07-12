@@ -8,23 +8,27 @@ nav_order: 6
 ---
 
 ---
-
+### 📅 Southeast University, Bangladesh
+- **Lecturer (Part-Time)** [June 30, 2026 – Present]  
+  _Department of CSE_
+  - **CSE 343:** Computer Graphics and Animation
+  - **CSE 448:** Computer Graphics and Animation Lab
+  - **CSE 348:** Advanced Networking Lab
 
 ### 📅 Ostad
-
 - **Teaching Assistant**  
   _Focus Areas: Laravel, PHP, Data Science_  
   - Conducted tutorial sessions and provided technical support for students learning **PHP** and the **Laravel** framework for full-stack web development.
   - Assisted in the **Data Science** curriculum, guiding learners through data analysis, machine learning concepts, and practical coding exercises.
   - Reviewed student assignments, debugged code, and led Q&A sessions to clarify complex programming concepts.
 
-### 📅 Skillup Bangladesh
+<!-- ### 📅 Skillup Bangladesh
 
 - **QA Automation Trainer**  
   _Focus Area: Quality Assurance & Automation Testing_  
   - Designed and delivered comprehensive training modules on **QA Automation**.
   - Taught industry-standard testing frameworks, test script writing, and automated testing pipelines.
-  - Mentored students through practical, hands-on projects to ensure readiness for professional QA roles.
+  - Mentored students through practical, hands-on projects to ensure readiness for professional QA roles. -->
 
 ---
 
